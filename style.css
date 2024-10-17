@@ -1,0 +1,73 @@
+
+body{
+  box-sizing: border-box;
+  background: url(img/bg.png);
+  background-repeat: no-repeat;
+	background-size:100%;
+  background-attachment:scroll;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.logo{
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.navbar a{
+  color: #f5f5f5;
+  height: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 15px;
+  border-radius: 4px;
+}
+.navbar a:hover{
+  color: #E9BD8C;
+}
+section{
+  padding: 80px;
+  margin-top: 60px;
+  font-weight: 600;
+}
+section p{
+  color: #E9BD8C;
+  font-size: 25px;
+  margin: 5px;
+}
+.text {
+  color: #f5f5f5;
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 74px;
+  font-weight: 400;
+}
+.btn{
+  display: inline-block;
+  font-size: 24px;
+  color:#f5f5f5;
+  background-color: #933C24;
+  padding: 15px 40px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.btn:hover{
+  color:#933C24;
+  background-color: #f5f5f5;
+}
+.link{
+  color:#E9BD8C;
+  font-size: 24px;
+  padding: 15px 20px;
+  font-weight: 400;
+}
+.link:hover{
+  color:#f5f5f5;
+}

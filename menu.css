@@ -1,0 +1,255 @@
+
+body{
+  background: url(img/bg.png);
+  background-repeat: no-repeat;
+	background-size:100%;
+  background-attachment:scroll;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.logo{
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.navbar a{
+  color: #f5f5f5;
+  height: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 15px;
+  border-radius: 4px;
+}
+.navbar a:hover{
+  color: #E9BD8C;
+}
+section{
+  padding: 80px;
+  font-weight: 600;
+}
+.text {
+  color: #f5f5f5;
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 200px;
+  font-weight: 400;
+  margin: 5px;
+}
+.btn{
+  display: inline-block;
+  font-size: 24px;
+  color:#f5f5f5;
+  background-color: #933C24;
+  padding: 15px 40px;
+  margin-top: 100px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.btn:hover{
+  color:#933C24;
+  background-color: #f5f5f5;
+}
+.menu p{
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  padding: 114px 0px 20px 0px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #5d5d5d;
+  font-size: 24px;
+  font-weight: 500;
+  gap: 40px;
+  border-bottom: 1.5px solid #933C24;
+}
+.nav a{
+  color: #5d5d5d;
+  font-size: 24px;
+  font-weight: 600;
+  gap: 20px;
+}
+
+.nav a:hover {
+  color: #933C24;
+  border-bottom: 4px solid #933C24;
+}
+.cakes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 100px;
+  row-gap: 10px;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 30px;
+}
+.pub {
+  background-image: url(img/bg2.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 55px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 48px;
+  margin: 0px;
+  color: #933C24;
+}
+.txt {
+  font-size: 24px;
+  color: #5d5d5d;
+}
+.pub .btn {
+  margin: 0px;
+}
+h2 {
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+}
+.card {
+  background-image: url(img/bg3.png);
+  background-position: center;
+  width: 385px;
+  height: 416px;
+  border-radius: 15px;
+}
+.card img{
+  position:relative;
+  left: 59px;
+  bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.card div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card p{
+  position: relative;
+  left: 20px;
+  bottom: 40px;
+  color: #f5f5f5;
+  font-size: 24px;
+  height: 91px;
+  width: 160px;
+}
+.card  a{
+  position: relative;
+  left: 220px;
+  bottom: 70px;
+  margin: 0px;
+  padding:0px;
+  font-size: 24px;
+  padding: 9px;
+}
+div ion-icon{
+  position: relative;
+  left: 290px;
+  bottom: 140px;
+  font-size: 40px;
+  color: #f5f5f5;
+}
+.cakes .cake {
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto;
+  column-gap: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer {
+  width: 1462px;
+  height: 622px;
+  background-image: url(img/bg4.png);
+  background-repeat: no-repeat;
+	background-size: 100%;
+  background-attachment: scroll;
+}
+.top {
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto;
+  column-gap: 50px;
+  padding: 30px 120px;
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: 1.5px solid #E9BD8C;
+}
+.top img {
+  width: 121.08px;
+  height: 121.08px;
+}
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 70px;
+}
+.icon p {
+  color: #E9BD8C;
+  font-size: 24px;
+}
+.img img  {
+  width: 42.12px;
+  height: 42.12px;
+  padding-left: 20px;
+  gap: 10px;
+}
+.fcontent {
+  display: flex;
+}
+.about {
+  margin-left: 150px;
+  margin-top: 50px;
+  color: #f5f5f5;
+}
+.about p{
+  font-size: 20px;
+}
+.about .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #E9BD8C;
+}
+.fimg {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 500px;
+}
+.fimg img{
+  margin-top: 5px;
+  width: 130px;
+}
+.ftxt{
+  padding-top: 0px;
+  grid-template-columns: 2;
+}
+.ftxt p:first-child{
+  font-size: 15px;
+  color:#E9BD8C;
+  margin: 5px 0px;
+}
+
