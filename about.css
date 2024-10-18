@@ -2,6 +2,7 @@
   margin: 0;
 }
 body{
+  box-sizing: border-box;
   background: url(img/bg.png);
   background-repeat: no-repeat;
 	background-size:100%;
@@ -35,151 +36,50 @@ a{
   color: #E9BD8C;
 }
 section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 80px;
+  margin-top: 60px;
+  margin-right: 55%;
+  margin-bottom: 40px;
   font-weight: 600;
 }
-.text {
+section p:first-child{
   color: #f5f5f5;
   font-family: "Sansita Swashed", system-ui;
-  font-size: 200px;
+  font-size: 74px;
   font-weight: 400;
+}
+section p{
+  color: #f5f5f5;
+  font-size: 25px;
+  font-weight: 200;
   margin: 5px;
+  text-align: center;
 }
 .btn{
   display: inline-block;
   font-size: 24px;
   color:#f5f5f5;
   background-color: #933C24;
-  padding: 15px 40px;
-  margin-top: 100px;
-  margin-left: 40px;
+  padding: 15px 80px;
+  margin-top: 50px;
   border-radius: 10px;
 }
 .btn:hover{
   color:#933C24;
   background-color: #f5f5f5;
 }
-.menu p{
-  font-family: "Sansita Swashed", system-ui;
-  font-size: 64px;
-  font-weight: 500;
-  text-align: center;
-  padding: 114px 0px 20px 0px;
-}
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: #5d5d5d;
+.link{
+  color:#E9BD8C;
   font-size: 24px;
-  font-weight: 500;
-  gap: 40px;
-  border-bottom: 1.5px solid #933C24;
+  padding: 15px 20px;
+  font-weight: 400;
 }
-.nav a{
-  color: #5d5d5d;
-  font-size: 24px;
-  font-weight: 600;
-  gap: 20px;
-}
-
-.nav a:hover {
-  color: #933C24;
-  border-bottom: 4px solid #933C24;
-}
-.cakes {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 100px;
-  row-gap: 10px;
-  justify-content: center;
-  padding: 40px;
-  margin-top: 30px;
-}
-.pub {
-  background-image: url(img/bg2.png);
-  background-position: center;
-  background-size: 100%;  
-  background-repeat: no-repeat;
-  padding: 55px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.title {
-  font-family: "Sansita Swashed", system-ui;
-  font-size: 48px;
-  margin: 0px;
-  color: #933C24;
-}
-.txt {
-  font-size: 24px;
-  color: #5d5d5d;
-}
-.pub .btn {
-  margin: 0px;
-}
-h2 {
-  font-family: "Sansita Swashed", system-ui;
-  font-size: 64px;
-  font-weight: 500;
-  text-align: center;
-  padding: 10px;
-}
-.card {
-  background-image: url(img/bg3.png);
-  background-position: center;
-  width: 385px;
-  height: 416px;
-  border-radius: 15px;
-}
-.card img{
-  position:relative;
-  left: 59px;
-  bottom: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-.card div{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.card p{
-  position: relative;
-  left: 20px;
-  bottom: 40px;
-  color: #f5f5f5;
-  font-size: 24px;
-  height: 91px;
-  width: 160px;
-}
-.card  a{
-  position: relative;
-  left: 220px;
-  bottom: 70px;
-  margin: 0px;
-  padding:0px;
-  font-size: 24px;
-  padding: 9px;
-}
-div ion-icon{
-  position: relative;
-  left: 290px;
-  bottom: 140px;
-  font-size: 40px;
-  color: #f5f5f5;
-}
-.cakes .cake {
-  display: grid;
-  text-align: center;
-  grid-template-columns: auto auto;
-  column-gap: 50px;
-  font-size: 24px;
-  font-weight: 500;
+.link:hover{
+  color:#f5f5f5;
 }
 footer {
   width: 1478px;
