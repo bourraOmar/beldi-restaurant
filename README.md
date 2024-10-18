@@ -1,1 +1,1 @@
-Ce brief met l'accent sur la création de maquettes et de sites web pour une chaîne de restaurants, en realisant la page d'accueil, page menu, à propos et contact. en utilisant HTML et CSS.
+Ce projet est un site web simple pour un restaurant, conçu en utilisant HTML et CSS. Il présente un design épuré et réactif qui met en valeur le menu, les services et les informations de contact du restaurant. L'objectif est de fournir une expérience utilisateur engageante tout en maintenant une mise en page moderne et esthétique.
